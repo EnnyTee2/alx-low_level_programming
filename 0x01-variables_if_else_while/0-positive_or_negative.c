@@ -6,9 +6,10 @@
 
 /* more headers goes there */
 
-/* betty style doc for function main goes there
+/* betty style doc for function main goes there */
+/*
  * the main function prints and check
- * and prints
+ * and prints the output
  */
 
 int main(void)
