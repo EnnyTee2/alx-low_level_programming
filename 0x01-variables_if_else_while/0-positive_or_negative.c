@@ -5,10 +5,12 @@
 #include <time.h>
 
 /* more headers goes there */
-the function prints and pprints
-
 
 /* betty style doc for function main goes there */
+/*
+ * the function prints and check
+ * and prints
+ */
 
 int main(void)
 
