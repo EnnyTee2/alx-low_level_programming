@@ -12,7 +12,7 @@
  * and prints the output
  */
 
-int main(void)
+int main(void) /* the main function prints */
 
 {
 
