@@ -6,9 +6,8 @@
 
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
-/*
- * the function prints and check
+/* betty style doc for function main goes there
+ * the main function prints and check
  * and prints
  */
 
