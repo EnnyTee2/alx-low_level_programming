@@ -24,19 +24,19 @@ int main(void)
 
   if (n > 0)
   {
-    puts("is positive");
+  printf("%d is positive\n", n);
   }
   
   else
   {
-    if (n == 0)
-    {
-      puts("is zero");
-    }
-      else
-    {
-      puts("is negative");
-    }
+  if (n == 0)
+  {
+  printf("%d is zero\n", n);
+  }
+  else
+  {
+  printf("%d is negative\n", n);
+  }
   }
       
   /* your code goes there */
