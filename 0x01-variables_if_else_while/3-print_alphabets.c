@@ -4,7 +4,7 @@
  * main -print the letters of the alphabet
  *
  * Description: print the letters of the alphabet in lower and upper case
- * 
+ *
  * Return: always 0 (Success)
  *
  */
