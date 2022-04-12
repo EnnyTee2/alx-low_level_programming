@@ -6,8 +6,6 @@
  *
  * Description: print the letters of the alphabet
  * Return: Always 0 (Success)
- *
- *      
  */
 
 
