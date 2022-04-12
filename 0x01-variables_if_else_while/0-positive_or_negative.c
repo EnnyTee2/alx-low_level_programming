@@ -4,11 +4,10 @@
 
 #include <time.h>
 
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+/* main - Entry point
 /*
- * the main function prints and check
+ * Description: the main function prints and check
  * and prints the output
  */
 
