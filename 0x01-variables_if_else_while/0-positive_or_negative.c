@@ -9,6 +9,8 @@
  *
  * Description: the main function prints and check
  * and prints the output
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void) /* the main function prints */
