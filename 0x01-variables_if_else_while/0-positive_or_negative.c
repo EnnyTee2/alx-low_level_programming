@@ -5,8 +5,8 @@
 #include <time.h>
 
 /**
-/* main - Entry point
-/*
+ * main - Entry point
+ *
  * Description: the main function prints and check
  * and prints the output
  */
