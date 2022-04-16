@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
-#include "2-largest_number.c"
 
 /**
  * main - prints the largest of 3 integers
  * Return: 0
+ * Description: All good
  */
 
 int main(void)
@@ -17,6 +17,7 @@ int main(void)
 	c = 0;
 
 	largest = largest_number(a, b, c);
+
 	printf("%d is the largest number\n", largest);
 
 	return(0);
