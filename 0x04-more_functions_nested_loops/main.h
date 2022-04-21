@@ -5,6 +5,6 @@
 
 int _isupper(int c);
 int mul(int a, int b);
-int _putchar(int char);
 
 #endif /* MAIN_H */
+
