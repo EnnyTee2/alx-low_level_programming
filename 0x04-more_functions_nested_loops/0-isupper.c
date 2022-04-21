@@ -20,3 +20,4 @@ int _isupper(int c)
 	}
 	return rev;
 }
+
