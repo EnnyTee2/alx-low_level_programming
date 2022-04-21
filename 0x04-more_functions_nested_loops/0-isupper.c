@@ -7,15 +7,15 @@
 
 int _isupper(int c)
 {
-  int rev;
-  
-  if (isupper(c) == 0)
-  {
-    rev = 0;
-  }
-  else
-  {
-    rev = 1;
-  }
-  return rev;
+	int rev;
+
+	if (isupper(c) == 0)
+	{
+		rev = 0;
+	}
+	else
+	{
+		rev = 1;
+	}
+	return rev;
 }
