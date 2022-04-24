@@ -10,17 +10,9 @@ int _isupper(char c)
 {
 	int rev;
 
-	if ((c >= 'a') && (c <= 'z'))
+	if (c >= 'a' && c <= 'z')
 	{
-		rev = 0;
-	}
-	else if((c >= 'A') && (c <= 'Z'))
+		return (0);
 	{
-		rev = 1;
-	}
-	else
-	{
-		putchar('E');
-	}
-	return rev;
+	return (1);	
 }
