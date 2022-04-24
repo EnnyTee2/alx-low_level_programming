@@ -1,4 +1,4 @@
-#include <ctype.h>
+#include<stdio.h>
 
 /**
  * _isupper - function that tests input whether it is Upper case
@@ -10,13 +10,17 @@ int _isupper(char c)
 {
 	int rev;
 
-	if (c >= 'a' && c <= 'z')
+	if ((c >= 'a') && (c <= 'z'))
 	{
 		rev = 0;
 	}
-	else
+	else if((c >= 'A') && (c <= 'Z'))
 	{
 		rev = 1;
+	}
+	else
+	{
+		putchar('E');
 	}
 	return rev;
 }
