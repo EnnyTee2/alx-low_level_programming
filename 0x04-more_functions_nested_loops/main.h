@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-int _isupper(int c);
+int _isupper(char c);
 int mul(int a, int b);
 
 #endif /* MAIN_H */
