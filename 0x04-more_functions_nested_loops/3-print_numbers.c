@@ -2,6 +2,7 @@
 
 /**
  * print_numbers - print the numbers btw 0 and 9 inclusive
+ * @c: variable to represent each number in the loop
  *
  * Return: default
  */
