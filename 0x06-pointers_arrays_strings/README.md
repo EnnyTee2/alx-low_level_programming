@@ -1,10 +1,9 @@
 # More Pointers, Arrays & Strings
-* 0-memset.c: function that fills memory with a constant byte
-* 1-memcpy.c: function that copies memory area
-* 2-strchr.c: function that locates a character in a string
-* 3-strspn.c: function that gets the length of a prefix substring
-* 4-strpbrk.c: function that searches a string for any of a set of bytes
-* 5-strstr.c: function that locates a substring
-* 7-print_chessboard.c: function that prints the chessboard
-* 8-print_diagsums.c: function that prints the sum of the two diagonals of a square matrix of integers
-* 9-set_string.c: function that sets the value of a pointer to a char
+* 0-strcat.c: function that concatenates two strings
+* 1-strncat.c: function that concatenates two strings
+* 2-strncpy.c: function that copies a string
+* 3-strcmp.c: function that compares two strings
+* 4-rev_array.c: function that reverses the content of an array of integers
+* 5-string_toupper.c: function that changes all lowercase letters of a string to uppercase
+* 6-cap_string.c: function that capitalizes all words of a string
+* 7-leet.c: function that encodes a string into 1337
