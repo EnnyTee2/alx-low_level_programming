@@ -2,9 +2,8 @@
 
 /**
  * print_numbers - print the numbers btw 0 and 9 inclusive
- * @c: variable to represent each number in the loop
  *
- * Return: default
+ * Return: void
  */
 
 void print_numbers()
@@ -15,5 +14,5 @@ void print_numbers()
 	{
 		_putchar(c);
 	}
-	_putchar('\n');
+	/*_putchar('\n');*/
 }
