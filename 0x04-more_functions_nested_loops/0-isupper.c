@@ -10,14 +10,13 @@ int _isupper(int c)
 {
 	int rev;
 
-	if (isupper(c) == 0)
+	if (c >= 'a' && <= 'z')
 	{
 		rev = 0;
 	}
-	else
+	else if (c >= 'A' && <= 'Z')
 	{
 		rev = 1;
 	}
 	return rev;
 }
-
