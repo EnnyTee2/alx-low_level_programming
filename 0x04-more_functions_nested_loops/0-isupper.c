@@ -3,7 +3,7 @@
 /**
  * _isupper - function that tests input whether it is Upper case
  *
- * Return: (0)
+ * Return: 1 if uppercase, 0 if lowercase
  */
 
 int _isupper(int c)
