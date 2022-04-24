@@ -14,7 +14,7 @@ int _isupper(char c)
 	{
 		rev = 0;
 	}
-	else (c >= 'A' && c <= 'Z')
+	else
 	{
 		rev = 1;
 	}
