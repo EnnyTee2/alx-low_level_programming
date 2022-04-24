@@ -3,16 +3,16 @@
 /**
  * _isupper - function that tests input whether it is Upper case
  *
- * Return: 1 if uppercase, 0 if lowercase
+ * Return: 1 if uppercase, 0 if otherwise
  */
 
 int _isupper(int c)
 {
 	int rev;
 
-	if (c >= 'a' && c <= 'z')
+	if (c >= 'A' && c <= 'Z')
 	{
-		return (0);
+		return (1);
 	{
-	return (1);	
+	return (0);	
 }
