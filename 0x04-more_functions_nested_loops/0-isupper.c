@@ -10,11 +10,11 @@ int _isupper(char c)
 {
 	int rev;
 
-	if (c >= 'a' && <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		rev = 0;
 	}
-	else if (c >= 'A' && <= 'Z')
+	else if (c >= 'A' && c <= 'Z')
 	{
 		rev = 1;
 	}
