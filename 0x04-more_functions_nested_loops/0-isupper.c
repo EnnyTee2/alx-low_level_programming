@@ -8,8 +8,6 @@
 
 int _isupper(int c)
 {
-	int rev;
-
 	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
