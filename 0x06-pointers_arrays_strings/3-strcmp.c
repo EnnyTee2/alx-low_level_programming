@@ -3,7 +3,7 @@
 /**
  * _strcmp - compares two strings
  * @s1: string one
- * @str2: string two
+ * @s2: string two
  * Return: int
  */
 
