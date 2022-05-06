@@ -15,8 +15,9 @@
  {
         char *str;
         str = malloc(sizeof(char)*size);
-        str[0] = c;
+        
         if (size == 0 || str == NULL)
                 return (NULL);
+         str[0] = c;
          return (str);
  }
