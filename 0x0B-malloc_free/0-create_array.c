@@ -20,5 +20,5 @@
         free(str);
         if (size == 0 || str == NULL)
                 return (NULL);
-         return (*str);
+         return (str);
  }
