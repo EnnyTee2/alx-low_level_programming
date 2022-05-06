@@ -18,4 +18,7 @@
         str[0] = c;
         
         free(str);
+        if (size == 0 || str == NULL)
+                return (NULL);
+         return (*str);
  }
