@@ -11,14 +11,15 @@
  *      pointer to array - if it succeds
  */
   
- char *create_array(unsigned int size, char c)
- {
+char *create_array(unsigned int size, char c)
+{
+        unsigned int i;
         char *str;
         str = malloc(sizeof(char)*size);
         
         if (size == 0 || str == NULL)
                 return (NULL);
-         while(1)
+         while(i < size)
          {
                 str[i] = c;
          }
