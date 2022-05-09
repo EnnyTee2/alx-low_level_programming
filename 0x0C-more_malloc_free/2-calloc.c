@@ -26,7 +26,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
                 return (NULL);
         }
         ces = str;
-        for (index = 0; index < nmemb; index++)
+        for (index = 0; index < size; index++)
         {
                 ces[index] = 0;
         }
