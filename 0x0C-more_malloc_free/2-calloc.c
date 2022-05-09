@@ -14,6 +14,8 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
         void *str;
+        char *ces;
+        unsigned int index;
         if (nmemb == 0 || size == 0)
         {
                 return (NULL);
@@ -22,6 +24,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
         if (str == NULL)
         {
                 return (NULL);
+        }
+        ces = str;
+        for (index = 0; index < nmemb; index++)
+        {
+                ces[index] = 0;
         }
         return (str);
         
