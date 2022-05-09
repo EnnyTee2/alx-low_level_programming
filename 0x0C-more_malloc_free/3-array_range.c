@@ -21,8 +21,10 @@ int *array_range(int min, int max)
 		return (NULL);
 
 	for (j = 0; j < diff; j++)
+        {
 		arr[j] = num;
                 num++;
+        }
 
 	return (arr);
 }
