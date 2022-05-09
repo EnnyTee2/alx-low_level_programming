@@ -6,4 +6,7 @@
  * Return: zero
  */
 
-int _isupper(int c);
+int _isupper(int c)
+{
+        return (0);
+}
