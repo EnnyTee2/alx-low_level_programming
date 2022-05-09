@@ -2,6 +2,6 @@
 
 int _putchar(char c)
 {
-        putchar(c);
+        write(1, c);
         return(0);
 }
