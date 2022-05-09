@@ -1,4 +1,9 @@
 void _puts(char *s)
 {
-        printf("%s", s);
+        int i = 0;
+        while(s[i])
+        {
+                putchar(s[i]);
+                i++;
+        }
 }
