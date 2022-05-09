@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _calloc - allocates memory for an array
+ * array_range - allocates memory for an array formed by given range
  * @min: minimum, array start
  * @max: maximum, array end
  * Return: pointer to allocated memory corresponding with the array
