@@ -11,7 +11,7 @@
 int *array_range(int min, int max)
 {
 	void *arr;
-	unsigned int i;
+	int i;
         int size = (max - min + 1);
 	char *k;
 
@@ -19,7 +19,7 @@ int *array_range(int min, int max)
         {
 		return (NULL);
         }
-	arr = malloc(size);
+	arr = malloc(size * sizeof(int));
 	if (arr == NULL)
         {
 		return (NULL);
