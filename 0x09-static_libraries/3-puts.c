@@ -1,9 +1,11 @@
+#include "main.h"
+
 void _puts(char *s)
 {
         int i = 0;
         while(s[i])
         {
-                putchar(s[i]);
+                _putchar(s[i]);
                 i++;
         }
 }
