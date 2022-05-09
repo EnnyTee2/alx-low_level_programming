@@ -10,10 +10,9 @@
 
 int *array_range(int min, int max)
 {
-	void *arr;
+	int *arr;
 	int i;
         int size = (max - min + 1);
-	char *k;
 
 	if (min > max)
         {
@@ -24,11 +23,10 @@ int *array_range(int min, int max)
         {
 		return (NULL);
         }
-	k = arr;
 
 	for (i = 0; i < size; i++)
         {
-                k[i] = min;
+                arr[i] = min;
                 min++;
         }
 	return (arr);
