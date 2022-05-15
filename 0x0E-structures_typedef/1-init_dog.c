@@ -1,7 +1,3 @@
-/*
- * File: 1-init_dog.c
- */
-
 #include "dog.h"
 #include <stdlib.h>
 
