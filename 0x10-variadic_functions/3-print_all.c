@@ -1,4 +1,6 @@
 #include "variadic_functions.h"
+
+
 /**
  * print_c - Prints char
  * @list: arguments
