@@ -7,7 +7,7 @@
  * @n: number of arguements
  * Return: nothing
  */
- 
+
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list numbers;
