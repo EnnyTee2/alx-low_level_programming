@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * find_listint_loop - Funcion dada
- * @head: Desde main
- *
+ * find_listint_loop - main function
+ * @head: main linked list (head)
+ 
  * Return: slow_p
  */
 listint_t *find_listint_loop(listint_t *head)
