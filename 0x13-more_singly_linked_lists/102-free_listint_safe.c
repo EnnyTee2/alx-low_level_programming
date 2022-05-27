@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * free_listint_safe - mas listas enlazadas
- * @h: Doble puntero asignado
+ * free_listint_safe - generator
+ * @h: head - front linked list
  * Return: i
  */
 size_t free_listint_safe(listint_t **h)
