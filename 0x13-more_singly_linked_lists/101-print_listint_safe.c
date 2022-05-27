@@ -1,11 +1,12 @@
 #include "lists.h"
 
 /**
- * print_listint_safe - Listas enlazadas
- * @head: Dado desde main
+ * print_listint_safe - function
+ * @head: linked list in front
  *
  * Return: i
  */
+
 size_t print_listint_safe(const listint_t *head)
 {
 	size_t i = 0;
