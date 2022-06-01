@@ -22,7 +22,7 @@
 	}
 	for (j = length-1; j >= 0; j--)
 	{
-		if (b[length] != '0' && b[length] != '1')
+		if (b[j] != '0' && b[j] != '1')
 			return (0);
 		
 		sum += (b[j] - '0') * power;
