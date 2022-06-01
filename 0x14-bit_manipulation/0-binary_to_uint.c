@@ -16,20 +16,24 @@
 	unsigned int sum = 0, power = 1;
 	int length, j;
 	
-	if(b == '\0')
-		return (0);
-	 
-	for(length = 0; b[length];)
+	if(b)
 	{
-		length++;
+		for(length = 0; b[length];)
+		{
+			length++;
+		}
+
+		for (j = length-1; j >= 0; j--)
+		{	
+			sum += (b[j] - '0') * power;
+			power *= 2;
+		}
+
+		return (sum);
 	}
-	 
-	for (j = length-1; j >= 0; j--)
-	{	
-		sum += (b[j] - '0') * power;
-		power *= 2;
+	else 
+	{
+		return (0);
 	}
-	
-	return (sum);
 
  }
