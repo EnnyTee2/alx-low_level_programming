@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 
@@ -13,7 +12,7 @@
  {
  	unsigned int sum = 0, power = 1;
 	int length, j;
-	
+	 
 	if (b) 
 	{
 		for(length = 0; b[length];)
