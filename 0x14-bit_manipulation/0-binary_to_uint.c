@@ -20,6 +20,7 @@
 	{
 		length++;
 	}
+	 
 	for (j = length-1; j >= 0; j--)
 	{
 		if (b[j] != '0' && b[j] != '1')
@@ -28,6 +29,8 @@
 		sum += (b[j] - '0') * power;
 		power *= 2;
 	}
+	
+	
 	return (sum);
 
  }
