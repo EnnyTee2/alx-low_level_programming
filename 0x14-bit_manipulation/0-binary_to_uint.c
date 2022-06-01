@@ -4,9 +4,10 @@
 /**
  * binary_to_uint - function to convert binary to uint
  * @b: binary string to be converted
- * @len: nasdds
- * @num: ernemte
- * @mult: rjdk
+ * @length: string array length
+ * @sum: variable to hold conversion result
+ * @power: variable to raise and lower power
+ * @j: count variable
  * Return: 0, if b contains unidentified char or b is NULL
  *		the converted number if b is valid
  */
