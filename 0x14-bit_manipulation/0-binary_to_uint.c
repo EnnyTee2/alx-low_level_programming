@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include "main.h"
 
 
@@ -17,7 +16,7 @@
 	
 	if (b) 
 	{
-		for(length = 0; b[length])
+		for(length = 0; b[length];)
 		{
 			length++;
 		}
@@ -25,7 +24,6 @@
 		{
 			sum += (b[j] - '0') * power;
 			power *= 2;
-			printf("%d\n", (b[j] - '0'));
 		}
 		return sum;
 	}
