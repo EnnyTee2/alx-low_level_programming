@@ -24,7 +24,7 @@
 			sum += (b[j] - '0') * power;
 			power *= 2;
 		}
-		return sum;
+		return (sum);
 	}
 	else
 	{
