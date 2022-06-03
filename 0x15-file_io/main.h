@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef __MAIN_H__
+#define __MAIN_H__
 
 #include <sys/types.h>
 #include <sys/stat.h>
