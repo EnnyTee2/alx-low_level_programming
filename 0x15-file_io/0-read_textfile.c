@@ -38,4 +38,4 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 	close(fd);
 	
-	writtenFile = write(STD_FILENO, buff, sizeof(readFile));
+	writtenFile = write(STD_FILENO, buff, readFile);
