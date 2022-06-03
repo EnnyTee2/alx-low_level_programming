@@ -6,7 +6,9 @@
  * @writtenFile: holds the written data
  * @buff: buffer for file storage
  * @fd:	file descriptor
- **/
+ *
+ * Return: number of letters printed
+ */
  
 ssize_t read_textfile(const char *filename, size_t letters)
 {	
@@ -37,5 +39,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 	close(fd);
-	
 	writtenFile = write(STD_FILENO, buff, readFile);
+	free(buff);
