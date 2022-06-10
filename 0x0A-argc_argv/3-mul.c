@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	num1 = atoi(argv[1]); // convert string to integer
+	num1 = atoi(argv[1]); /* convert string to integer */
 	num2 = atoi(argv[2]);
 	prod = num1 * num2;
 
