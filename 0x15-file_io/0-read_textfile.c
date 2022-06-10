@@ -6,7 +6,9 @@
  * @writtenFile: holds the written data
  * @buff: buffer for file storage
  * @fd:	file descriptor
- *
+ * @fileame: name of the file
+ * @letters: number of letters to read
+ 
  * Return: number of letters printed
  */
 
