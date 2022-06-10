@@ -2,10 +2,6 @@
 
 /**
  * read_textfile - function that reads specified file
- * @readFile: holds the read file
- * @writtenFile: holds the written data
- * @buff: buffer for file storage
- * @fd:	file descriptor
  * @filename: name of the file
  * @letters: number of letters to read
  *
