@@ -4,7 +4,6 @@
  * read_textfile - function that reads specified file
  * @filename: name of the file
  * @letters: number of letters to read
- *
  * Return: number of letters printed
  */
 
