@@ -16,7 +16,7 @@ int _strlength(char *a)
 		if (a[x] == '\0')
 		break;
 	}
-	return (count - 1);
+	return (count - 2);
 }
 
 void print_rev(char *s)
