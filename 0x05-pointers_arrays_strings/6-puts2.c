@@ -18,7 +18,7 @@ void puts2(char *str)
 
 	while (x < len)
 	{
-		if (str[x] != '')
+		if (str[x] != ' ')
 		{
 			_putchar(str[x]);
 			_putchar('\n');
