@@ -18,8 +18,11 @@ void puts2(char *str)
 
 	while (x < len)
 	{
-		_putchar(str[x]);
-		_putchar('\n');
+		if (str[x] != '')
+		{
+			_putchar(str[x]);
+			_putchar('\n');
+		}
 		x++;
 	}
 }
