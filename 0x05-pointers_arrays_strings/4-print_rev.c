@@ -21,11 +21,12 @@ int _strlength(char *a)
 
 void print_rev(char *s)
 {
-	int x, len = _strlength(s);
+	int len = _strlength(s);
 
-	for (x = len; x >= 0; x--)
+	while (len >= 0)
 	{
-		_putchar(s[x]);
+		_putchar(s[len]);
+		len--;
 	}
 
 	_putchar('\n');
