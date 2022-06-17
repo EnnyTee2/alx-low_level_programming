@@ -9,14 +9,16 @@ void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
 /**
- * struct typ - Struct operators
+ * struct printer - Struct operators
  *
- * @c: Char
- * @tp: The function associated
+ * @c: symbol representing a data type
+ * @print: The function associated.. function pointer
  */
-typedef struct typ
+typedef struct printer
 {
-	char *c;
-	void (*tp)(va_list var);
-} typ_t;
+	char *symbol;
+	void (*print)(va_list arg);
+
+} printer_t;
+
 #endif
