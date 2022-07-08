@@ -19,9 +19,3 @@ int sum_dlistint(dlistint_t *head)
 
 	return (sum);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
