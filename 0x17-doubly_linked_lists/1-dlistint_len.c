@@ -2,7 +2,7 @@
 
 /**
  * dlistint_len - function
- * @dlisint_t - linnked list
+ * @h - linnked list head
  *
  * Return: the number of elements in the list
  */
