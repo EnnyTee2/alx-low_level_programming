@@ -2,7 +2,7 @@
 
 /**
  * dlistint_len - function
- * @h - linnked list head
+ * @h: linked list head
  *
  * Return: the number of elements in the list
  */
