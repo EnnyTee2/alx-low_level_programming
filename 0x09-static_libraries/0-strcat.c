@@ -1,7 +1,5 @@
-#include "main.h"
-
 /**
- * _strcat: function to concantenate strings
+ * _strcat - function to concantenate strings
  * @dest: destination address
  * @src: source address
  * Return: zero
