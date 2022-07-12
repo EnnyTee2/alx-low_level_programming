@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strncpy - main function
  * @dest: destination address
