@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strpbrk - main function
  * @s: variable to process
