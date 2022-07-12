@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strcpy - function to copy strings
  * @dest: destination address
