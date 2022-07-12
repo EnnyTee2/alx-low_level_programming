@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strcmp - main function
  * @s1: 1st variable to compare
