@@ -3,8 +3,8 @@
 /**
  * _memcpy - main function
  * @dest: destination address
- * @src - source address
- * @n - integer
+ * @src: source address
+ * @n: integer variable
  * Return: returns zero
  */
 
