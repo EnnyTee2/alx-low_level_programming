@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper: main function
+ * _isupper - main function
  * @c: variable to process
  * Return: zero
  */
