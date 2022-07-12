@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strlen - main function
  * @s: character to process
