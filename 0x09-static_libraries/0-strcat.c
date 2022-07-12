@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strcat - function to concantenate strings
  * @dest: destination address
