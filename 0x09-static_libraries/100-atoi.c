@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _atoi - main function
  * @s: variable to process
