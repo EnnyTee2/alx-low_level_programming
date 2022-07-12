@@ -5,7 +5,6 @@
  * @s: string to process
  */
 
-
 void _puts(char *s)
 {
 	int i = 0;
