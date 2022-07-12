@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _putchar - main function
  * @c: variable to process
