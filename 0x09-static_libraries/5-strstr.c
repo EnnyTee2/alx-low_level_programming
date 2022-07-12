@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strstr - main function
  * @haystack: string to search from
