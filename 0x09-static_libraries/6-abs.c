@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _abs - main function
  * @n: integer to process
