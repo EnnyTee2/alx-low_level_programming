@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strchr - converts string to char
  * @s: variable to process
