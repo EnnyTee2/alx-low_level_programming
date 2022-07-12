@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _islower - main function
  * @c: variable to process
