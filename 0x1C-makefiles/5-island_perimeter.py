@@ -18,7 +18,8 @@ def island_perimeter(grid):
                         return 0
                 else:
                     if grid[i][j] == 1:  # land found in cell
-                        # The if blocks below detects if the cell is surrounded by water
+                        # The if blocks below detects
+                        # if the cell is surrounded by water
                         if grid[i][j+1] == 0:
                             perimeter += 1
                         if grid[i][j-1] == 0:
