@@ -1,8 +1,3 @@
-/*
- * File: 103-exponential.c
- * Auth: Brennan D Baraban
- */
-
 #include "search_algos.h"
 
 /**
