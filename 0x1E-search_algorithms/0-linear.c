@@ -1,6 +1,6 @@
 #include <search_algos.h>
 
-/* linear_search: function to search for a value 'value' in
+/** linear_search: function to search for a value 'value' in
  * 	given array 'array' using linear search algorithm
  * array: int - pointer to the array
  * size: size_t - number of elements in the array
