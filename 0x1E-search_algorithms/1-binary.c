@@ -17,7 +17,7 @@ int binary_search(int *array, size_t size, int value)
 	size_t mid;
 	
 	mid = (start + end) / 2;
-	while (mid >= start)
+	while (mid > start)
 	{
 		if (value > array[mid])
 		{
